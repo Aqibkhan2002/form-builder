@@ -2,12 +2,14 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    
 }
 
 body{
     min-height:100vh;
     min-width: 100vw;
     background-color: rgb(246, 236, 255);
+    overflow-x: hidden;
 }
 
 form{
@@ -20,7 +22,8 @@ form{
     min-width: 40%;
     background-color: white;
     border-radius:10px ;
-    padding:30px
+    padding:30px;
+    overflow-x: hidden;
 }
 .container{
     min-height:100vh;
